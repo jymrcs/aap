@@ -77,7 +77,7 @@ body {
     display: flex;
     width: 100%;
     min-height: 900px;
-    background-image: url('./resources/BG2.jpg');
+    background-image: url('/Resources/BG2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +156,7 @@ body {
     height: 700px;  
     display: flex;
     justify-content: center;
-    background-image: url('./resources/Toffee.jpg');
+    background-image: url('/Resources/Toffee.jpg');
     background-repeat: no-repeat;
     flex-wrap: wrap;
   }  
