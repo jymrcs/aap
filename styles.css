@@ -1,0 +1,220 @@
+/* Universal Styles */
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Comfortaa, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(4, 2, 0);
+    opacity: 0.9;
+    text-align: center;
+    background-color: rgb(246, 243, 243);
+  }
+  
+  /* All other styles */
+  
+  /* Header */
+  
+  header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 1px solid seashell;
+    background-color: rgb(233, 226, 226);
+    overflow: hidden;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #brand img {
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 15%;
+  }
+
+   /* Nav Items */
+  
+  
+   .nav-items {
+    padding: 2px 10px;
+  }
+  
+  .nav-items a {
+    text-decoration: underline;
+    color: rgb(7, 3, 0);
+    font-size: 1.2rem;
+  }
+  
+  .nav-items a:visited {
+    text-decoration: underline;
+    color: rgb(4, 2, 0);
+  }
+  
+  .nav-items a:hover {
+    text-decoration: none;
+    color: seashell;
+  }
+  
+  .nav-items a:active {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  
+  main {
+    display: flex;
+    padding-top: 69px;
+    overflow: hidden;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+ /* Mission */
+  
+ #mission {
+    display: flex;
+    width: 100%;
+    min-height: 900px;
+    background-image: url('/Resources/BG2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+
+  #mission .content {
+    width: 100%;
+    background-color: rgb(27, 26, 26);
+    opacity: 80%;
+    overflow: hidden;
+    color: seashell;
+  }
+
+  #mission .content h2 {
+    margin-top: 10px;
+    font-size: 3rem;
+  }
+  
+  #mission .content h4 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+
+  /* Store */
+  
+  #store {
+    display: flex;
+    width: 1200px;
+    overflow: hidden;
+   justify-content: center;
+    margin: 50px 0;
+  
+  }
+  
+  #store-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  
+  .thumb-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .thumbnail-container span {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .item img {
+    height: 350px;
+    padding: 5px;
+    border-radius: 5%;
+  }
+  
+  .item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  
+/* Our Team */
+  
+#team {
+    width: 1200px;
+    height: 700px;  
+    display: flex;
+    justify-content: center;
+    background-image: url('/Resources/Toffee.jpg');
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }  
+
+  #team h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 3rem;
+    color: seashell;
+  }
+  
+  #team-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    color: seashell;
+  }
+
+  
+  #team-container .teammate {
+    width: 300px;
+    min-height: auto;
+    margin: 15px 40px;
+    background-color: rgb(27, 26, 26);
+    opacity: 1;
+    overflow: hidden;
+    border-radius: 3%;
+  }
+
+  .teammate img {
+    height: 250px;
+    padding: 10px;
+    border-radius: 3%;
+    opacity: 1;
+  }
+
+    /*Contact */
+  
+  #contact {
+    width: 100%;
+    min-height: 200px;
+    overflow: hidden;
+  }
+  
+  footer {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+  }
+  
+  @media only screen and (max-width: 760px)
+  {
+    #team{
+      height: fit-content;
+    }
+    #team-container .teammate {
+      width: 250px;
+      min-height: auto;
+    }
+  }    
